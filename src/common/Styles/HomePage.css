@@ -1,0 +1,100 @@
+.HomePage {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.Card-HomePage {
+    margin: 20px 20px;
+}
+
+.Cards-HomePage {
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+.Img-Cards {
+    width: 30%;
+}
+
+.Section-1-HomePage {
+    margin-top: 50px;
+    background-color: #e74c3c;
+    color: white;
+    height: 80vh;
+}
+
+.Section-2 .p-3{
+    width:50em;
+    margin: auto;
+    margin-bottom: 20px;
+}
+@media(max-width:600px){
+    .Section-1-HomePage {
+        height: auto;
+    }
+}
+@media(max-width:800px){
+    .Section-2 .p-3{
+        width:auto;
+    }
+}
+.title-section{
+    padding-top:80px;
+}
+.logo-sections{
+    width:50%;
+}
+.containerSection{
+    padding-top:100px;
+}
+.HomePage {
+    width: auto;
+}
+.Cards-HomePage {
+    width: auto;
+}
+
+.containerCard {
+    position: relative;
+    width: 100%;
+}
+
+#img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerCard:hover #img {
+    opacity: 0.3;
+}
+
+.containerCard:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}

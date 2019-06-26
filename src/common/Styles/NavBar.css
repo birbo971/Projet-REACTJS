@@ -1,0 +1,222 @@
+#login-btn{
+    cursor: pointer;
+}
+.login {
+    cursor: pointer;
+}
+/***** Login Modal Part****/
+.Form-Modal-Connect input{
+    margin-bottom: 20px;
+}
+.Form-Modal-Connect Button{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    cursor: pointer;
+    background: #2f889a;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+}
+.Form-Modal-Connect Button:hover{
+    border:solid #2f889a;
+    color: #2f889a;
+    background: #FFF;
+}
+
+.Form-Modal-Connect Button::after{
+    border:solid #2f889a;
+    color: #2f889a;
+    background: #FFF;
+}
+
+.has-email-connect #Email-ModalConnect{
+    padding-left: 2.375rem;
+}
+.has-email-connect .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.has-password-connect #Password-ModalConnect{
+    padding-left: 2.375rem;
+
+}
+.has-password-connect .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+/**** Register Modal Part ****/
+.Form-Modal-Register Button{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    cursor: pointer;
+    background: #2c3e50;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+}
+.Form-Modal-Register Button:hover{
+    border:solid #2c3e50;
+    color: #2c3e50;
+    background: #FFF;
+}
+.has-firstName-register #FirstName-ModalRegister{
+    padding-left: 2.375rem;
+}
+.has-firstName-register .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.has-lastName-register #LastName-ModalRegister{
+    padding-left: 2.375rem;
+}
+.has-lastName-register .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.has-email-register #Email-ModalRegister{
+    padding-left: 2.375rem;
+
+}
+.has-email-register .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.has-pass-register #Password-ModalRegister{
+    padding-left: 2.375rem;
+
+}
+.has-pass-register .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.has-pass-register #RepPassword-ModalRegister{
+    padding-left: 2.375rem;
+
+}
+.has-pass-register .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 1.375rem;
+    margin-left: 10px;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+.Form-Modal-Gender p{
+    font-weight:600;
+    font-size: 22px
+}
+.Form-Modal-Gender Button{
+    margin-right: 10px;
+    border-radius: 0px;
+}
+.Form-DateBirth{
+    display: -webkit-box;
+}
+.Title-BirthDay{
+    font-weight:600;
+    font-size: 22px
+}
+.small{
+    font-size: 14px;
+    overflow-wrap: break-word !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.28571em !important;
+    color: rgb(72, 72, 72) !important;
+    margin: 0px !important;
+}
+.DateBirth{
+    width:35%!important;
+    margin-right: 10px;
+}
+.DateBirthDay{
+    width:20%;
+    margin-right: 10px;
+}
+@media (max-width:500px){
+    .DateBirthDay{
+        width:30%;
+    }
+}
+.Footer-modal{
+    color: rgb(72, 72, 72) !important;
+}
+.Forgotten-pwd a{
+    color:#008489;
+    font-weight: 600;
+}
+.Forgotten-pwd{
+    margin-top: 10px;
+    text-align: center;
+}
+.Footer-modal a{
+    color:#008489;
+    font-weight: 600;
+}
+.Sign-Btn{
+    cursor: pointer;
+}
+/**** Nav-Link Tabs Modal****/
+
+.nav-tabs .nav-link{
+    background-color: #d2d8d8;
+}
+.nav-tabs .nav-link.active{
+    border:none!important;
+}
+.nav-tabs{
+    border-bottom:none!important;
+}
+.close{
+    display: none!important;
+}
+.modal-header{
+    border-bottom:none!important; 
+}
